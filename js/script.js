@@ -341,7 +341,9 @@ function render() {
             <h1>${escapeHtml(outfit.title)}</h1>
             <p>${escapeHtml(outfit.description)}</p>
             <div class="badge" aria-label="Season collection">
-              <span class="badge-icon" aria-hidden="true">&#10052;</span>
+              <span class="badge-icon" aria-hidden="true">
+                <img src="images/snowflake.png" alt="" />
+              </span>
               <span>Winter 2022 Style</span>
             </div>
           </header>
